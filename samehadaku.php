@@ -18,7 +18,7 @@ $html = str_get_html($data);
 $bahan = $html->find('ul[id=posts-container]', 0);
 $kotak = $bahan->find('li[class=post-item]');
 foreach($kotak as $key => $val) {
- $title = $val->find('div[class=post-details]', 0)->find('a', 0)->title;
+ $title = $val->find('h3[class=post-title]', 0)->find('a', 0)->title;
  $url = $val->find('a[class=post-thumb]', 0)->href; 
  $date = $val->find('span[class=date meta-item]', 0)->find('span', 1)->innertext;
  $img = $val->find('img[class=attachment-jannah-image-large]', 0)->src;

@@ -1,4 +1,6 @@
 <?php
+ini_set('display_errors',1); 
+error_reporting(E_ALL);
 require('listapikey.php');
 require('simple_html_dom.php');
 $apikey=rawurlencode($_GET['apikey']);

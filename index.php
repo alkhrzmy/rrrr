@@ -47,13 +47,13 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="https://alkhrzmy.online/">Home</a>
+        <a class="nav-link" href="https://apirzmy.herokuapp.com/">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://alkhrzmy.online/about">About</a>
+        <a class="nav-link" href="https://apirzmy.000webhostapp.com/about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://api.alkhrzmy.online/">Api Base</a>
+        <a class="nav-link" href="https://apirzmy.000webhostapp.com/">Api Base</a>
       </li>    
     </ul>
   </div>  
@@ -104,18 +104,18 @@ $(document).ready(function(){
 				    	<td><a href="./samehadaku.php" class="btn btn-success" role="button">Click</a></td>
 				    	<td><font color="green">Online</font></td>
 			    	</tr>
-			    	<tr class="table-danger">
-				    	<td><font color='red'>Anime OnGoing Samehadaku</font></td>
+			    	<tr class="table-success">
+				    	<td><font color='green'>Anime OnGoing Samehadaku</font></td>
 				    	<td><a href="./ongoing.php" class="btn btn-success" role="button">Click</a></td>
 				    	<td><font color="green">Offline</font></td>
 			    	</tr>
-			    	<tr class="table-success">
-				    	<td><font color='green'>Anime News</font></td>
+			    	<tr class="table-danger">
+				    	<td><font color='red'>Anime News</font></td>
 				    	<td><a href="./anime-news.php" class="btn btn-danger" role="button">Click</a></td>
 				    	<td><font color="red">Online</font></td>
 			    	</tr>
-			    	<tr class="table-success">
-				    	<td><font color='green'>Anime Search</font></td>
+			    	<tr class="table-danger">
+				    	<td><font color='red'>Anime Search</font></td>
 				    	<td><a href="./anime-search.php" class="btn btn-danger" role="button">Click</a></td>
 				    	<td><font color="red">Online</font></td>
 			    	</tr>

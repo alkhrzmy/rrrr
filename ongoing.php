@@ -17,7 +17,7 @@ curl_close($ch);
 $output = array();
 $html = str_get_html($data);
 
-$bahan = $html->find('ul[class=posts-items posts-list-container]',0)
+$bahan = $html->find('ul[class=posts-items]',0)
 $kotak = $bahan->find('li[class=post-item');
 
 foreach($kotak as $key => $val) {

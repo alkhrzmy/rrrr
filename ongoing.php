@@ -17,7 +17,7 @@ $output = array();
 
 $html = str_get_html($data);
 
-$bahan = $html->find('div[class=mag-box-container]',0)
+$bahan = $html->find('div[class=mag-box-container]',0);
 $kotak = $bahan->find('li[class=post-item]');
 
 echo $kotak;

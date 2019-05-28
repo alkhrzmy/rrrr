@@ -24,7 +24,7 @@ foreach($kotak as $key => $val) {
  $img = $val->find('img[class=attachment-jannah-image-large]', 0)->src;
 
   $output[] = array(
-  'title' => str_replace(' ','',$title),
+  'title' => $title,#str_replace(' ','',$title),
   'url' => $url,
   'date' => $date,
   'img' => $img

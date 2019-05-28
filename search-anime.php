@@ -15,6 +15,6 @@ curl_close($ch);
 if(in_array($apikey, $list) && $keyword){
     echo $data;
 }else{
-  echo "maaf, input salah. Ex: <a href='./search-anime.php?key=hitori&apikey=contoh'>https://apirzmy.herokuapp.com/search-anime.php?key=hitori&apikey=contoh</a><br/>untuk mendapatkan apikey silahkan kontak creator atau langsung <a href="http://line.me/ti/p/~alkhoarizmy">Klik disini</a>";
+  echo "maaf, input salah. Ex: <a href='./search-anime.php?key=hitori&apikey=contoh'>https://apirzmy.herokuapp.com/search-anime.php?key=hitori&apikey=contoh</a><br/>untuk mendapatkan apikey silahkan kontak creator atau langsung <a href='http://line.me/ti/p/~alkhoarizmy'>Klik disini</a>";
 }
 ?>

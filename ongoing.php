@@ -40,7 +40,7 @@ $result = array(
   'result'=>$output
 );
 
-if(in_array($apikey, $list){
+if(in_array($apikey, $list)){
   echo json_encode($result, JSON_PRETTY_PRINT);
 }else{
   echo 'maaf, input salah. Ex: https://apirzmy.herokuapp.com/ongoing.php?apikey=contoh';

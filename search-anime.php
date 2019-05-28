@@ -14,7 +14,8 @@ curl_close($ch);
 $res = json_decode($data->raw_body, true);
 $result = array(
     'created by'=>'rzmy',
-    'result'=> $res['results']
+    'docs by'=>'jikan',
+    'result'=> array($res['results']),
 );
 
 if(in_array($apikey, $list) && $keyword){

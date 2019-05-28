@@ -15,7 +15,7 @@ $res = json_decode($data->raw_body, true);
 $result = array(
     'created by'=>'rzmy',
     'docs by'=>'jikan',
-    'result'=> array($res['results'][0],$res['results'][1]),
+    'result'=> array($res['results'][0]['url'],$res['results'][1]['url']),
 );
 
 if(in_array($apikey, $list) && $keyword){

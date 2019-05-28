@@ -20,7 +20,6 @@ $html = str_get_html($data);
 $bahan = $html->find('ul[class=posts-items',0);
 $kotak = $bahan->find('li[class=post-item]');
 
-echo $kotak;
 
 foreach($kotak as $key => $val) {
   $title = $val->find('h3[class=post-title]',0)->find('a',0)->innertext;

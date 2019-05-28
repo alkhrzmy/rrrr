@@ -105,19 +105,19 @@ $(document).ready(function(){
 				    	<td><font color="green">Online</font></td>
 			    	</tr>
 			    	<tr class="table-danger">
-				    	<td><font color='red'>Web Custom String</font></td>
-				    	<td><a href="./webget.php" class="btn btn-danger" role="button">Click</a></td>
-				    	<td><font color="red">Offline</font></td>
+				    	<td><font color='red'>Anime OnGoing Samehadaku</font></td>
+				    	<td><a href="./ongoing.php" class="btn btn-success" role="button">Click</a></td>
+				    	<td><font color="green">Offline</font></td>
 			    	</tr>
 			    	<tr class="table-success">
 				    	<td><font color='green'>Anime News</font></td>
-				    	<td><a href="./anime-news.php" class="btn btn-success" role="button">Click</a></td>
-				    	<td><font color="green">Online</font></td>
+				    	<td><a href="./anime-news.php" class="btn btn-danger" role="button">Click</a></td>
+				    	<td><font color="red">Online</font></td>
 			    	</tr>
 			    	<tr class="table-success">
 				    	<td><font color='green'>Anime Search</font></td>
-				    	<td><a href="./anime-search.php" class="btn btn-success" role="button">Click</a></td>
-				    	<td><font color="green">Online</font></td>
+				    	<td><a href="./anime-search.php" class="btn btn-danger" role="button">Click</a></td>
+				    	<td><font color="red">Online</font></td>
 			    	</tr>
 			    </tbody>
             </table>

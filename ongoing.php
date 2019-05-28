@@ -20,9 +20,9 @@ $kotak = $bahan->find('li[class=post-item tie-standard]');
 
 foreach($kotak as $key => $val) {
   $title = $val->find('h3[class=post-title]',0)->find('a',0)->innertext;
-  $image = $val->find('img[class=attachment-jannah-image-small size-jannah-image-small tie-small-image wp-post-image]',0)->src;
+  $image = $val->find('img[class=attachment-jannah-image-small]',0)->src;
   $date = $val->find('span[class=date meta-item]',0)->find('span', 1)->innertext;
-  $url = $val->find('h3[class=post-title]',0)->find('a',0)->href;
+  $url = $val->find('a[class=post-thumb]',0)->href;
   
   $output[] = array(
     'title'=>$title,

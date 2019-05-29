@@ -112,7 +112,7 @@ $(document).ready(function(){
 			    	<tr class="table-danger">
 				    	<td><font color='red'>Anime News</font></td>
 				    	<td><a href="./anime-news.php" class="btn btn-danger" role="button">Click</a></td>
-				    	<td><font color="red">Offline</font></td>
+				    	<td><font color="green">Online</font></td>
 			    	</tr>
 			    	<tr class="table-success">
 				    	<td><font color='green'>Anime Search</font></td>

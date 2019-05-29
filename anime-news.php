@@ -16,9 +16,9 @@ $output = array();
 $html = str_get_html($data);
 
 $bahan=$html->find('div[class=mainfeed-section]',0);
-$kotak=$bahan->find('div[class=herald box news preview-only]',0);
+$kotak=$bahan->find('div[class=herald box news]');
 foreach($kotak as $key => $val) {
-  $title = $val->find('div[class=warp]',0)->find('a',0)->innertext;
+  $title = $val->find('div[class=wrap]',0)->find('a',0)->innertext;
   $date = $val->find('div[class=byline]',0)->find('time',0)->title;
   $image = $val->find('div[class=thumbnail]',0)->data-src;
   

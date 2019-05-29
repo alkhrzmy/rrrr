@@ -94,10 +94,10 @@ $(document).ready(function(){
 					    <td><a href="./berita.php" class="btn btn-danger" role="button">Click</a></td>
 					    <td><font color="red">Offline</font></td>
 				    </tr>
-				    <tr class="table-danger">
-					    <td><font color="#C80000">Meownime</font></td>
-					    <td><a href="./meownime.php" class="btn btn-danger" role="button">Click</a></td>
-					    <td><font color="red">Offline</font></td>
+				    <tr class="table-success">
+					    <td><font color="green">Meownime</font></td>
+					    <td><a href="./meownime-ongoing.php" class="btn btn-success" role="button">Click</a></td>
+					    <td><font color="green">Online</font></td>
 			    	</tr>
 			    	<tr class="table-success">
 				    	<td><font color="green">Samehadaku</font></td>

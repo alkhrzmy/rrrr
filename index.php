@@ -100,7 +100,7 @@ $(document).ready(function(){
 					    <td><font color="green">Online</font></td>
 			    	</tr>
 			    	<tr class="table-success">
-				    	<td><font color="green">Samehadaku</font></td>
+				    	<td><font color="green">Samehadaku Search</font></td>
 				    	<td><a href="./samehadaku.php" class="btn btn-success" role="button">Click</a></td>
 				    	<td><font color="green">Online</font></td>
 			    	</tr>

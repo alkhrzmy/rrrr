@@ -5,8 +5,7 @@ $keyword = rawurlencode($_GET['key']);
 require_once('./unirest-php-master/src/Unirest.php');
 
 $day_list = array(
-  'sunday','monday','tuesday','wednesday','friday','saturday',
-  'Sunday','Monday','Tuesday','Wednesday','Friday','Saturday'
+  'sunday','monday','tuesday','wednesday','friday','saturday'
 );
 
 $uri= 'https://api.jikan.moe/v3/schedule/'.$keyword;
@@ -20,7 +19,6 @@ $result = array(
 if(in_array($keyword,$day_list)&&in_array($apikey, $list)){
   echo json_encode($result, JSON_PRETTY_PRINT);
 }else{
-echo "Error: input salah atau apikey tidak ada
-contoh => https://apirzmy.herokuapp.com/jadwal-airing.php?apikey=contoh&key=sunday";
+echo "Error: input salah atau apikey tidak ada\ncontoh => https://apirzmy.herokuapp.com/jadwal-airing.php?apikey=contoh&key=sunday";
 }
 ?>

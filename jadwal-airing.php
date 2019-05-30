@@ -5,7 +5,8 @@ $keyword = rawurlencode($_GET['key']);
 require_once('./unirest-php-master/src/Unirest.php');
 
 $day_list = array(
-  'sunday','monday','tuesday','wednesday','friday','saturday'
+  'sunday','monday','tuesday','wednesday','friday','saturday',
+  'Sunday','Monday','Tuesday','Wednesday','Friday','Saturday'
 );
 
 $uri= 'https://api.jikan.moe/v3/schedule/'.$keyword;

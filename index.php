@@ -90,7 +90,7 @@ $(document).ready(function(){
                 </thead>
                 <tbody>
                     <tr class="table-danger">
-					    <td><font color="#C80000">Berita</font></td>
+					    <td><font color="#C80000">MAL Anime info</font></td>
 					    <td><a href="./berita.php" class="btn btn-danger" role="button">Click</a></td>
 					    <td><font color="red">Offline</font></td>
 				    </tr>
@@ -112,7 +112,7 @@ $(document).ready(function(){
 			    	<tr class="table-danger">
 				    	<td><font color='red'>Anime News</font></td>
 				    	<td><a href="./anime-news.php" class="btn btn-danger" role="button">Click</a></td>
-				    	<td><font color="green">Online</font></td>
+				    	<td><font color="red">Online</font></td>
 			    	</tr>
 			    	<tr class="table-success">
 				    	<td><font color='green'>Anime Search</font></td>

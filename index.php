@@ -119,6 +119,11 @@ $(document).ready(function(){
 				    	<td><a href="./search-anime.php" class="btn btn-success" role="button">Click</a></td>
 				    	<td><font color="green">Online</font></td>
 			    	</tr>
+				<tr class="table-success">
+				    	<td><font color='green'>Anime Schedule Airing</font></td>
+				    	<td><a href="./jadwal-airing.php" class="btn btn-success" role="button">Click</a></td>
+				    	<td><font color="green">Online</font></td>
+			    	</tr>
 			    </tbody>
             </table>
             

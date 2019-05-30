@@ -8,6 +8,7 @@ $day_list = array(
   'sunday','monday','tuesday','wednesday','friday','saturday',
   'Sunday','Monday','Tuesday','Wednesday','Friday','Saturday'
 );
+$map_day= array_map('strtolower',$day_list);
 
 $uri= 'https://api.jikan.moe/v3/schedule/'.$keyword;
 $respon = Unirest\Request::get("$uri");
@@ -17,9 +18,10 @@ $result = array(
     'docs by'=>'jikan',
     'result'=> $res[$keyword],
 );
-if(in_array($keyword,$day_list)&&in_array($apikey, $list)){
+if(in_array($keyword,$map_day)&&in_array($apikey, $list)){
   echo json_encode($result, JSON_PRETTY_PRINT);
 }else{
-echo "Error: input salah atau apikey tidak ada\ncontoh => https://apirzmy.herokuapp.com/jadwal-airing.php?apikey=contoh&key=sunday";
+echo 'Error: input salah atau apikey tidak ada\n
+contoh => https://apirzmy.herokuapp.com/jadwal-airing.php?apikey=contoh&key=sunday';
 }
 ?>

@@ -47,7 +47,7 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="https://apirzmy.herokuapp.com/">Home</a>
+        <a class="nav-link" href="https://apirzmy.000webhostapp.com">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://apirzmy.000webhostapp.com/About">About</a>

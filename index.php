@@ -50,10 +50,10 @@
         <a class="nav-link" href="https://apirzmy.herokuapp.com/">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://apirzmy.000webhostapp.com/about">About</a>
+        <a class="nav-link" href="https://apirzmy.000webhostapp.com/About">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://apirzmy.000webhostapp.com/">Api Base</a>
+        <a class="nav-link" href="https://apirzmy.000webhostapp.com/Contact">Contact</a>
       </li>    
     </ul>
   </div>  

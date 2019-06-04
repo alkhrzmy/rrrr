@@ -14,8 +14,12 @@ $result = array(
     'result'=> $res['results'],
 );
 
-if(in_array($apikey, $list) && $keyword){
-    echo json_encode($result, JSON_PRETTY_PRINT);
+if($keyword){
+    if(in_array($apikey, $list)){
+        echo json_encode($result, JSON_PRETTY_PRINT);
+    }else{
+        echo '<center><h2>Maaf, apikey tidak ditemukan. Silahkan kontak creator. <br/></h2><h1><a href="line.me/ti/p/~alkhoarizmy" color="green">LINE</a></h1></center>';
+    }
 }else{
   echo "maaf, input salah. Ex: <a href='./search-anime.php?key=hitori&apikey=contoh'>https://apirzmy.herokuapp.com/search-anime.php?key=hitori&apikey=contoh</a><br/>untuk mendapatkan apikey silahkan kontak creator atau langsung <a href='http://line.me/ti/p/~alkhoarizmy'>Klik disini</a>";
 }

@@ -35,9 +35,9 @@ if($keyword){
         echo '<center><h2>Maaf, apikey tidak ditemukan. Silahkan kontak creator. <br/></h2><h1><a href="https://line.me/ti/p/~alkhoarizmy" color="green">LINE</a></h1></center>';
     }
 }else{
-  echo "<div class='card bg-danger text-red'>
-    <div class='card-body'>Parameter yang anda masukan salah</div><br/>
-  </div>Maaf, input salah. Ex: <a href='./search-anime.php?key=hitori&apikey=contoh'>https://apirzmy.herokuapp.com/search-anime.php?key=hitori&apikey=contoh</a><br/>untuk mendapatkan apikey silahkan kontak creator atau langsung <a href='http://line.me/ti/p/~alkhoarizmy'>Klik disini</a>";
+  echo "<div class='container'><div class='card bg-danger text-red'>
+    <div class='card-body'>Parameter yang anda masukan salah</div></div><br/>
+  Maaf, input salah. Ex: <a href='./search-anime.php?key=hitori&apikey=contoh'>https://apirzmy.herokuapp.com/search-anime.php?key=hitori&apikey=contoh</a><br/>untuk mendapatkan apikey silahkan kontak creator atau langsung <a href='http://line.me/ti/p/~alkhoarizmy'>Klik disini</a></div>";
 }
 ?>
         

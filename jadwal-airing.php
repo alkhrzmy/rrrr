@@ -18,10 +18,14 @@ $result = array(
     'docs by'=>'jikan',
     'result'=> $res[$keyword],
 );
-if(in_array($keyword,$map_day)&&in_array($apikey, $list)){
-  echo json_encode($result, JSON_PRETTY_PRINT);
+if(in_array($keyword,$map_day)){
+  if(in_array($apikey, $list)){
+        echo json_encode($result, JSON_PRETTY_PRINT);
+    }else{
+        echo '<center><h2>Maaf, apikey tidak ditemukan. Silahkan kontak creator. <br/></h2><h1><a href="https://line.me/ti/p/~alkhoarizmy" color="green">LINE</a></h1></center>';
+    }
 }else{
-echo 'Error: input salah atau apikey tidak ada\n
-contoh => https://apirzmy.herokuapp.com/jadwal-airing.php?apikey=contoh&key=sunday';
+echo "Error: input salah atau apikey tidak ada\n
+contoh => https://apirzmy.herokuapp.com/jadwal-airing.php?apikey=contoh&key=sunday";
 }
 ?>

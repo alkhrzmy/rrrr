@@ -34,7 +34,7 @@ $result = array(
 );
 if(in_array($keyword,$map_day)){
   if(in_array($apikey, $list)){
-    echo json_encode($result, JSON_PRETTY_PRINT);
+    echo '<pre style="word-wrap: break-word; white-space: pre-wrap;">'.json_encode($result, JSON_PRETTY_PRINT).'</pre>';
   }else{
     echo "<br/><div class='container'><div class='card bg-danger text-red'>
     <div class='card-body'>Parameter yang anda masukan salah</div></div><br/>Maaf, input salah. Ex: <a href='./jadwal-airing.php?key=sunday&apikey=contoh'>https://apirzmy.herokuapp.com/jadwal-airing.php?key=sunday&apikey=contoh</a><br/>untuk mendapatkan apikey silahkan kontak creator atau langsung <a href='http://line.me/ti/p/~alkhoarizmy'>Klik disini</a></div>";

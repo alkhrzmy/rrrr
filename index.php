@@ -1,5 +1,5 @@
 <?php
-if($_SERVER["SCRIPT_URI"] == "http://apirzmy.herokuapp.com"){
+if($_SERVER["SCRIPT_URI"] == "http://apirzmy.herokuapp.com/index.php"){
   header('Location: https://apirzmy.herokuapp.com/index.php');
 }
 ?>

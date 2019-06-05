@@ -22,7 +22,7 @@ if(in_array($keyword,$map_day)){
   if(in_array($apikey, $list)){
     echo json_encode($result, JSON_PRETTY_PRINT);
   }else{
-    header('Location: https://apirzmy.herokuapp.com/error.php?e=nonev1&h=jadwal-airing');
+    header('Location: https://apirzmy.herokuapp.com/error.php?e=nonev1.2&h=jadwal-airing');
   }
 }else{
   header('Location: https://apirzmy.herokuapp.com/error.php?e=nonev1&h=jadwal-airing');

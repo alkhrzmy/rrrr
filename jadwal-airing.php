@@ -22,13 +22,10 @@ if(in_array($keyword,$map_day)){
   if(in_array($apikey, $list)){
     echo json_encode($result, JSON_PRETTY_PRINT);
   }else{
-    echo "<br/><div class='container'><div class='card bg-danger text-red'>
-    <div class='card-body'>Parameter yang anda masukan salah</div></div><br/>Maaf, input salah. Ex: <a href='./jadwal-airing.php?key=sunday&apikey=contoh'>https://apirzmy.herokuapp.com/jadwal-airing.php?key=sunday&apikey=contoh</a><br/>untuk mendapatkan apikey silahkan kontak creator atau langsung <a href='http://line.me/ti/p/~alkhoarizmy'>Klik disini</a></div>";
+    header('Location: https://apirzmy.herokuapp.com/error.php?e=nonev1&h=jadwal-airing');
   }
 }else{
-echo "<br/><div class='container'><div class='card bg-danger text-red'>
-    <div class='card-body'>Parameter yang anda masukan salah</div></div><br/>Error: input salah atau apikey tidak ada<br/>
-contoh => https://apirzmy.herokuapp.com/jadwal-airing.php?apikey=contoh&key=sunday</div>";
+  header('Location: https://apirzmy.herokuapp.com/error.php?e=nonev1&h=jadwal-airing');
 }
 ?>
 

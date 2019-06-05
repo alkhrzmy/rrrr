@@ -1,6 +1,6 @@
 <?php
 if($_SERVER["SCRIPT_URI"] == "http://apirzmy.herokuapp.com"){
-  header('Location: https://apirzmy.herokuapp.com');
+  header('Location: https://apirzmy.herokuapp.com/index.php');
 }
 ?>
 <html>

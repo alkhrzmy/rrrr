@@ -19,11 +19,11 @@ $error = rawurlencode($_GET['e']);
 if($error=='nonev1'){
   echo "<br/><div class='container'><div class='card bg-danger text-warning'>
     <div class='card-body'>Parameter yang anda masukan salah</div></div><br/>
-  Maaf, input salah. Ex: <a href='./".$halaman."?key=hitori&apikey=contoh'>https://apirzmy.herokuapp.com/".$halaman."?key=hitori&apikey=contoh</a><br/>untuk mendapatkan apikey silahkan kontak creator atau langsung <a href='http://line.me/ti/p/~alkhoarizmy'>Klik disini</a></div>";
+  Maaf, input salah. Ex: <a href='./".$halaman.".php?key=hitori&apikey=contoh'>https://apirzmy.herokuapp.com/".$halaman.".php?key=hitori&apikey=contoh</a><br/>untuk mendapatkan apikey silahkan kontak creator atau langsung <a href='http://line.me/ti/p/~alkhoarizmy'>Klik disini</a></div>";
 }elseif($error=='nonev2'){
   echo "<br/><div class='container'><div class='card bg-danger text-warning'>
     <div class='card-body'>Parameter yang anda masukan salah</div></div><br/>
-  Maaf, input salah. Ex: <a href='./".$halaman."?apikey=contoh'>https://apirzmy.herokuapp.com/".$halaman."?apikey=contoh</a><br/>untuk mendapatkan apikey silahkan kontak creator atau langsung <a href='http://line.me/ti/p/~alkhoarizmy'>Klik disini</a></div>";
+  Maaf, input salah. Ex: <a href='./".$halaman.".php?apikey=contoh'>https://apirzmy.herokuapp.com/".$halaman.".php?apikey=contoh</a><br/>untuk mendapatkan apikey silahkan kontak creator atau langsung <a href='http://line.me/ti/p/~alkhoarizmy'>Klik disini</a></div>";
 }
 
 

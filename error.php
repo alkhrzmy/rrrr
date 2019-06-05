@@ -26,7 +26,7 @@ if($error=='nonev1'){
   Maaf, input salah. Ex: <a href='./".$halaman.".php?apikey=contoh'>https://apirzmy.herokuapp.com/".$halaman.".php?apikey=contoh</a><br/>untuk mendapatkan apikey silahkan kontak creator atau langsung <a href='http://line.me/ti/p/~alkhoarizmy'>Klik disini</a></div>";
 }elseif($error=='nonev1.2'){
     echo '<center><h2>Maaf, apikey tidak ditemukan. Silahkan kontak creator. <br/></h2><h1><a href="https://line.me/ti/p/~alkhoarizmy" color="green">LINE</a></h1></center>';
-}elseif($error=='nonev2.2){
+}elseif($error=='nonev2.2'){
     echo '<center><h2>Maaf, apikey tidak ditemukan. Silahkan kontak creator. <br/></h2><h1><a href="https://line.me/ti/p/~alkhoarizmy" color="green">LINE</a></h1></center>';
 }
 

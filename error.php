@@ -25,9 +25,9 @@ if($error=='nonev1'){
     <div class='card-body'>Parameter yang anda masukan salah</div></div><br/>
   Maaf, input salah. Ex: <a href='./".$halaman.".php?apikey=contoh'>https://apirzmy.herokuapp.com/".$halaman.".php?apikey=contoh</a><br/>untuk mendapatkan apikey silahkan kontak creator atau langsung <a href='http://line.me/ti/p/~alkhoarizmy'>Klik disini</a></div>";
 }elseif($error=='nonev1.2'){
-    echo '<center><h2>Maaf, apikey tidak ditemukan. Silahkan kontak creator. <br/></h2><h1><a href="https://line.me/ti/p/~alkhoarizmy" color="green">LINE</a></h1></center>';
+    echo '<center><h2>Maaf, apikey tidak ditemukan. Silahkan kontak creator. <br/></h2><h1><a href="https://line.me/ti/p/~alkhoarizmy" color="green">LINE</a></h1><br/><button type="button" class="btn btn-link"><a href="https://apirzmy.herokuapp.com/">Home</a></button></center>';
 }elseif($error=='nonev2.2'){
-    echo '<center><h2>Maaf, apikey tidak ditemukan. Silahkan kontak creator. <br/></h2><h1><a href="https://line.me/ti/p/~alkhoarizmy" color="green">LINE</a></h1></center>';
+    echo '<center><h2>Maaf, apikey tidak ditemukan. Silahkan kontak creator. <br/></h2><h1><a href="https://line.me/ti/p/~alkhoarizmy" color="green">LINE</a></h1><br/><button type="button" class="btn btn-link"><a href="https://apirzmy.herokuapp.com/">Home</a></button></center>';
 }
 
 

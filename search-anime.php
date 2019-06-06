@@ -9,7 +9,6 @@ $respon = Unirest\Request::get("$uri");
 $res = json_decode($respon->raw_body, true);
 
 $result = array(
-    'error'=>false,
     'created by'=>'rzmy',
     'docs by'=>'jikan',
     'result'=> $res['results'],

@@ -9,18 +9,23 @@ $respon = Unirest\Request::get("$uri");
 $res = json_decode($respon->raw_body, true);
 
 $result = array(
+    'error'=>false,
     'created by'=>'rzmy',
     'docs by'=>'jikan',
     'result'=> $res['results'],
+);
+$err = array(
+    'error'=>true,
+    'msg'=>'Maaf, parameter input yang anda masukan salah. Ex: ./search-anime.php?apikey=sbeve&key=one+punch'
 );
 
 if($keyword){
     if(in_array($apikey, $list)){
         echo json_encode($result, JSON_PRETTY_PRINT);
     }else{
-        header('Location: https://apirzmy.herokuapp.com/error.php?e=nonev1.2&h=search-anime');
+        echo json_encode($err, JSON_PRETTY_PRINT);
     }
 }else{
- header('Location: https://apirzmy.herokuapp.com/error.php?e=nonev1&h=search-anime');
+ echo json_encode($err, JSON_PRETTY_PRINT);
 }
 ?>

@@ -37,12 +37,32 @@ echo <<<EXCERPT
       <h4>Example</h4>
       
     </div>
-  </div>
+  </div><br />
+  <table class="table">
+    <thead>
+      <tr class="table-primary">
+        <th>Parameter</th>
+        <th>Required</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>apikey</th>
+        <th>yes</th>
+        <th>untuk mendapatkan APIkey dapat menghubungi <a href="line.me/ti/p/~alkhoarizmy">creator</a></th>
+      </tr>
+      <tr>
+        <th>key</th>
+        <th>yes</th>
+        <th>query</th>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 EXCERPT;
-    
-    
+
 ?>
 
   </body>

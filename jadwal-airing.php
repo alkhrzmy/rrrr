@@ -18,14 +18,18 @@ $result = array(
     'docs by'=>'jikan',
     'result'=> $res[$keyword],
 );
+$err = array(
+    'error'=>true,
+    'msg'=>'Maaf, parameter input yang anda masukan salah. Ex: ./jadwal-airing.php?apikey=sbeve&key=one+punch'
+);
 if(in_array($keyword,$map_day)){
   if(in_array($apikey, $list)){
     echo json_encode($result, JSON_PRETTY_PRINT);
   }else{
-    header('Location: https://apirzmy.herokuapp.com/error.php?e=nonev1.2&h=jadwal-airing');
+    echo json_encode($err, JSON_PRETTY_PRINT);
   }
 }else{
-  header('Location: https://apirzmy.herokuapp.com/error.php?e=nonev1&h=jadwal-airing');
+  echo json_encode($err, JSON_PRETTY_PRINT);
 }
 ?>
 

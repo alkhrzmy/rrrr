@@ -93,37 +93,37 @@ $(document).ready(function(){
                 <tbody>
                     <tr class="table-danger">
 					    <td><font color="#C80000">MAL Anime info</font></td>
-					    <td><a href="./berita.php" class="btn btn-danger" role="button">Click</a></td>
+					    <td><a href="./preview?p=berita.php&type=1" class="btn btn-danger" role="button">Click</a></td>
 					    <td><font color="red">Offline</font></td>
 				    </tr>
 				    <tr class="table-success">
 					    <td><font color="green">Meownime</font></td>
-					    <td><a href="./meownime-ongoing.php" class="btn btn-success" role="button">Click</a></td>
+					    <td><a href="./preview?p=meownime-ongoing.php&type=2" class="btn btn-success" role="button">Click</a></td>
 					    <td><font color="green">Online</font></td>
 			    	</tr>
 			    	<tr class="table-success">
 				    	<td><font color="green">Samehadaku Search</font></td>
-				    	<td><a href="./samehadaku.php" class="btn btn-success" role="button">Click</a></td>
+				    	<td><a href="./preview?p=samehadaku.php&type=2" class="btn btn-success" role="button">Click</a></td>
 				    	<td><font color="green">Online</font></td>
 			    	</tr>
 			    	<tr class="table-success">
 				    	<td><font color='green'>Anime OnGoing Samehadaku</font></td>
-				    	<td><a href="./ongoing.php" class="btn btn-success" role="button">Click</a></td>
+				    	<td><a href="./preview?p=ongoing.php&type=1" class="btn btn-success" role="button">Click</a></td>
 				    	<td><font color="green">Online</font></td>
 			    	</tr>
 			    	<tr class="table-danger">
 				    	<td><font color='red'>Anime News</font></td>
-				    	<td><a href="./anime-news.php" class="btn btn-danger" role="button">Click</a></td>
+				    	<td><a href="./preview?p=anime-news.php&type=1" class="btn btn-danger" role="button">Click</a></td>
 				    	<td><font color="red">Online</font></td>
 			    	</tr>
 			    	<tr class="table-success">
 				    	<td><font color='green'>Anime Search</font></td>
-				    	<td><a href="./search-anime.php" class="btn btn-success" role="button">Click</a></td>
+				    	<td><a href="./preview?p=search-anime.php&type=2" class="btn btn-success" role="button">Click</a></td>
 				    	<td><font color="green">Online</font></td>
 			    	</tr>
 				<tr class="table-success">
 				    	<td><font color='green'>Anime Schedule Airing</font></td>
-				    	<td><a href="./jadwal-airing.php" class="btn btn-success" role="button">Click</a></td>
+				    	<td><a href="./preview.php?p=jadwal-airing.php&type=2" class="btn btn-success" role="button">Click</a></td>
 				    	<td><font color="green">Online</font></td>
 			    	</tr>
 			    </tbody>

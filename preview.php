@@ -31,14 +31,8 @@ echo <<<EXCERPT
       <h4>URL+Parameters</h4>
       <blockquote class="blockquote">
       <span class="badge badge-success">URL</span><font size="3">https://apirzmy.herokuapp.com/$p</font>
-      </blockquote>
-    </div>
-    <div id="menu1" class="container tab-pane fade"><br>
-      <h4>Example</h4>
-      
-    </div>
-  </div><br />
-  <table class="table">
+      </blockquote><br/>
+      <table class="table">
     <thead>
       <tr class="table-primary">
         <th>Parameter</th>
@@ -59,6 +53,13 @@ echo <<<EXCERPT
       </tr>
     </tbody>
   </table>
+    </div>
+    <div id="menu1" class="container tab-pane fade"><br>
+      <h4>Example</h4>
+      
+    </div>
+  </div>
+  
 </div>
 
 EXCERPT;

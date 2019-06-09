@@ -5,7 +5,7 @@ if($_SERVER["SCRIPT_URI"] == "http://apirzmy.herokuapp.com/index.php"){
 ?>
 <html>
     <head>
-	    <link rel="icon" type="image/png" href="image/icon1.png">
+	<link rel="icon" href="image/icon1.png">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">

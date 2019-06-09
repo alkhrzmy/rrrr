@@ -10,8 +10,10 @@
   <body>
 
 <?php
+    require_once('./unirest-php-master/src/Unirest.php');
 $p = rawurlencode($_GET['p']);
 $type = rawurlencode($_GET['type']);
+$err = rawurlencode($_GET['error']);
 if($type==2){
   echo <<<EXCERPT
 <div class="container">
@@ -106,7 +108,16 @@ EXCERPT;
     </div>
     <div id="menu1" class="container tab-pane fade"><br>
       <h4>Example</h4>
-      
+      <blockquote class="blockquote">
+      <span class="badge badge-success">URL</span><font size="3">https://apirzmy.herokuapp.com/$p</font>
+      </blockquote><br/>
+      if($err==true){
+        <mark>Maaf, API ini sedang error</mark>
+      }else{
+        $uri="https://apirzmy.herokuapp.com/" . $p . "?apikey=admin&key=one";
+        $respon = Unirest\Request::get("$uri");
+        echo "<mark>".$respon."</mark>";
+      }
     </div>
   </div>
   

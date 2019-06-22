@@ -6,7 +6,7 @@ $header = array(
   "Accept-Encoding: gzip"
 );
 
-$url = "https://secureapp.simsimi.com/v1/simsimi/talkset?uid=271898762&av=6.8.7.1&lc=id&cc=ID&tz=Asia%2FJakarta&os=a&ak=alofKTlYS08reLe4gzCD2W7mijs%3D&message_sentence=aku%20suka%20loli&normalProb=2&isFilter=1&talkCnt=1&talkCntTotal=1&reqFilter=0&session=udu6auK1LfyAQwLzupMPbdKVYDX9HkLnkYkU4jPWFmX6MysmRf6uFqg5RhqqVzVjKixAJaoNuxLi1YNFjLrs2Qu3&triggerKeywords=%5B%5D",
+$url = "https://secureapp.simsimi.com/v1/simsimi/talkset?uid=271898762&av=6.8.7.1&lc=id&cc=ID&tz=Asia%2FJakarta&os=a&ak=alofKTlYS08reLe4gzCD2W7mijs%3D&message_sentence=aku%20suka%20loli&normalProb=2&isFilter=1&talkCnt=1&talkCntTotal=1&reqFilter=0&session=udu6auK1LfyAQwLzupMPbdKVYDX9HkLnkYkU4jPWFmX6MysmRf6uFqg5RhqqVzVjKixAJaoNuxLi1YNFjLrs2Qu3&triggerKeywords=%5B%5D";
 
 $ch = curl_init();
 		curl_setopt($ch, CURLOPT_HEADER, 0);

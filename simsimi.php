@@ -18,10 +18,7 @@ $context = stream_context_create(array(
   ),
 ));
 
-$result = file_get_contents($url, false, $context);
 
-echo $result;
-/*
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_HEADER, 0);
 curl_setopt($ch, CURLOPT_VERBOSE, 1);
@@ -30,7 +27,7 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
 curl_setopt($ch, CURLOPT_POST, 1 );
 curl_setopt($ch, CURLOPT_FAILONERROR, 0);
-curl_setopt($ch, CURLOPT_POSTFIELDS, $message);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 curl_setopt($ch, CURLOPT_URL, $url);
 $results = curl_exec($ch);
@@ -38,5 +35,5 @@ curl_close($ch);
 
 echo $results;
 
-*/
+
 ?>

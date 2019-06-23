@@ -18,6 +18,11 @@
 $p = rawurlencode($_GET['p']);
 $type = rawurlencode($_GET['type']);
 $err = rawurlencode($_GET['error']);
+	  
+$uri = 'https://apirzmy.000webhostapp.com/'.$p.'?apikey=admin&key=one';
+$exam = Unirest\Request::get("$uri");
+$example = json_encode($exam, JSON_PRETTY_PRINT);
+
 if($type==2){
   echo <<<EXCERPT
 <div class="container">
@@ -64,8 +69,7 @@ if($type==2){
     </div>
     <div id="menu1" class="container tab-pane fade"><br>
       <h4>Example</h4>
-        <textarea class="codemirror-textarea">This is the code
-yeah\nhell no</textarea>
+        <textarea class="codemirror-textarea">	$example</textarea>
 
 		
     </div>
@@ -115,8 +119,7 @@ EXCERPT;
     </div>
     <div id="menu1" class="container tab-pane fade"><br>
       <h4>Example</h4>
-      <textarea class="codemirror-textarea">This is the code
-yeah\nhell no</textarea>
+      <textarea class="codemirror-textarea">	$example</textarea>
     </div>
   </div>
   

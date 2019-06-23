@@ -64,7 +64,8 @@ if($type==2){
     </div>
     <div id="menu1" class="container tab-pane fade"><br>
       <h4>Example</h4>
-        <textarea class="codemirror-textarea"></textarea>
+        <textarea class="codemirror-textarea">This is the code
+yeah\nhell no</textarea>
 
 		
     </div>
@@ -114,16 +115,8 @@ EXCERPT;
     </div>
     <div id="menu1" class="container tab-pane fade"><br>
       <h4>Example</h4>
-      <blockquote class="blockquote">
-      <span class="badge badge-success">URL</span><font size="3">https://apirzmy.herokuapp.com/$p</font>
-      </blockquote><br/>
-      if($err==true){
-        <mark>Maaf, API ini sedang error</mark>
-      }else{
-        $uri="https://apirzmy.herokuapp.com/" . $p . "?apikey=admin&key=one";
-        $respon = Unirest\Request::get("$uri");
-        echo "<mark>".$respon."</mark>";
-      }
+      <textarea class="codemirror-textarea">This is the code
+yeah\nhell no</textarea>
     </div>
   </div>
   

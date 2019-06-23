@@ -19,7 +19,7 @@ $p = rawurlencode($_GET['p']);
 $type = rawurlencode($_GET['type']);
 $err = rawurlencode($_GET['error']);
 	  
-$uri = 'https://apirzmy.000webhostapp.com/'.$p.'?apikey=admin&key=one';
+$uri = 'https://apirzmy.herokuapp.com/'.$p.'?apikey=admin&key=one';
 $exam = Unirest\Request::get("$uri");
 $example = json_encode($exam, JSON_PRETTY_PRINT);
 

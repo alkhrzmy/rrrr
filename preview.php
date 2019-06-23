@@ -20,8 +20,7 @@ $type = rawurlencode($_GET['type']);
 $err = rawurlencode($_GET['error']);
 	  
 $uri = 'https://apirzmy.herokuapp.com/'.$p.'?apikey=admin&key=one';
-$exam = Unirest\Request::get("$uri");
-$example = json_encode($exam, JSON_PRETTY_PRINT);
+$exam = json_encode(Unirest\Request::get("$uri"), JSON_PRETTY_PRINT);
 
 if($type==2){
   echo <<<EXCERPT
@@ -70,7 +69,7 @@ if($type==2){
     <div id="menu1" class="container tab-pane fade"><br>
       <h4>Example</h4>
       <span class="badge badge-pill badge-secondary">URL</span><font size='3'>https://apirzmy.herokuapp.com/$p?apikey=sbeve&key=one</font>
-        <textarea class="codemirror-textarea">$example</textarea>
+        <br><textarea class="codemirror-textarea">$exam</textarea>
 
 		
     </div>
@@ -121,7 +120,7 @@ EXCERPT;
     <div id="menu1" class="container tab-pane fade"><br>
       <h4>Example</h4>
       <span class="badge badge-pill badge-secondary">URL</span><font size='3'>https://apirzmy.herokuapp.com/$p?apikey=sbeve&key=one</font>
-      <textarea class="codemirror-textarea">$example</textarea>
+      <br><textarea class="codemirror-textarea">$exam</textarea>
     </div>
   </div>
   

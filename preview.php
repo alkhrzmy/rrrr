@@ -120,7 +120,7 @@ EXCERPT;
     </div>
     <div id="menu1" class="container tab-pane fade"><br>
       <h4>Example</h4>
-      <span class="badge badge-pill badge-secondary">URL</span><font size='3'>https://apirzmy.herokuapp.com/$p?apikey=sbeve&key=one</font>
+      <span class="badge badge-pill badge-secondary">URL</span><font size='3'>https://apirzmy.herokuapp.com/$p?apikey=sbeve</font>
       <br/><textarea class="codemirror-textarea">$exam</textarea>
     </div>
   </div>

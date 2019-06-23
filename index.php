@@ -127,6 +127,11 @@ $(document).ready(function(){
 				    	<td><a href="./preview.php?p=jadwal-airing.php&type=2" class="btn btn-success" role="button">Click</a></td>
 				    	<td><font color="green">Online</font></td>
 			    	</tr>
+				<tr class="table-success">
+				    	<td><font color='green'>Simsimi Bot</font></td>
+				    	<td><a href="./preview.php?p=simsimi.php&type=2" class="btn btn-success" role="button">Click</a></td>
+				    	<td><font color="green">Online</font></td>
+			    	</tr>
 			    </tbody>
             </table>
             

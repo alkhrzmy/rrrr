@@ -69,7 +69,8 @@ if($type==2){
     </div>
     <div id="menu1" class="container tab-pane fade"><br>
       <h4>Example</h4>
-        <textarea class="codemirror-textarea">	$example</textarea>
+      <span class="badge badge-pill badge-secondary">URL</span><font size='3'>https://apirzmy.herokuapp.com/$p?apikey=sbeve&key=one</font>
+        <textarea class="codemirror-textarea">$example</textarea>
 
 		
     </div>
@@ -119,7 +120,8 @@ EXCERPT;
     </div>
     <div id="menu1" class="container tab-pane fade"><br>
       <h4>Example</h4>
-      <textarea class="codemirror-textarea">	$example</textarea>
+      <span class="badge badge-pill badge-secondary">URL</span><font size='3'>https://apirzmy.herokuapp.com/$p?apikey=sbeve&key=one</font>
+      <textarea class="codemirror-textarea">$example</textarea>
     </div>
   </div>
   

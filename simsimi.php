@@ -15,6 +15,7 @@ $result = array(
       'text'=>$res['simsimi_talk_set']['answers'][0]['origin_answerSentence'],
       'timestamp'=>$res['simsimi_talk_set']['answers'][0]['timestamp']
     ),
+    'message' => $res['simsimi_talk_set']['message']['sentence']
 );
 $err = array(
     'error'=>true,
